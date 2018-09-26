@@ -1580,8 +1580,10 @@
 	  }
 
 	  createClass(DraggableCore, [{
-	    key: 'componentWillMount',
-	    value: function componentWillMount() {
+	    key: 'componentDidMount',
+	    value: function componentDidMount() {
+	      console.log('HELLO FROM REACT DRAGGABLE');
+
 	      var thisNode = ReactDOM.findDOMNode(this);
 	      if (thisNode) {
 	        var ownerDocument = thisNode.ownerDocument;
