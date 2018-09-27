@@ -1588,8 +1588,8 @@
 	      if (thisNode) {
 	        var ownerDocument = thisNode.ownerDocument;
 
-	        addEvent(ownerDocument, eventsFor.mouse.start, this.onMouseDown);
-	        addEvent(ownerDocument, eventsFor.touch.start, this.onMouseDown);
+	        addEvent(thisNode, eventsFor.mouse.start, this.onMouseDown);
+	        addEvent(thisNode, eventsFor.touch.start, this.onMouseDown);
 	        addEvent(ownerDocument, eventsFor.mouse.stop, this.onMouseUp);
 	        addEvent(ownerDocument, eventsFor.touch.stop, this.onMouseUp);
 	        if (this.props.enableUserSelectHack) addUserSelectStyles(ownerDocument);

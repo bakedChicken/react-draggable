@@ -1,12 +1,12 @@
 {
   "dist/react-draggable.js": {
-    "bundled": 72877,
+    "bundled": 72867,
     "minified": 22160,
-    "gzipped": 7380
+    "gzipped": 7382
   },
   "dist/react-draggable.min.js": {
-    "bundled": 50216,
+    "bundled": 50206,
     "minified": 15517,
-    "gzipped": 5464
+    "gzipped": 5466
   }
 }
